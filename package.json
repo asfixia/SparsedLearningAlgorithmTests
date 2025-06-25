@@ -1,0 +1,27 @@
+{
+  "main": "src/index.tsx",
+  "name": "flashcard-simulator",
+  "description": "",
+  "version": "1.0.0",
+  "dependencies": {
+    "recharts": "^2.5.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "scripts": {
+    "start": "parcel index.html --open",
+    "start3": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "parcel": "^2.9.3",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-react": "^7.22.15",
+    "loader-utils": "3.2.1",
+    "typescript": "5.7.2"
+  }
+}
